@@ -1,0 +1,16 @@
+footer{
+padding: 12px;
+    background: #98239d24;
+    box-shadow: inset 12px 12px 11px #bd31c60d;
+        bottom: 0px !important;
+    position: relative;
+    width: 100%;
+}
+.logo_header h1{
+	    font-size: 52px;
+    /* text-decoration: dotted !important; */
+    color: #716971;
+    font-family: cursive;
+    text-shadow: 0px 3px 12px red;
+    font-size: 52px !important; 
+}

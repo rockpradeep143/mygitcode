@@ -1,0 +1,88 @@
+header{
+padding-top:    ;: 12px;
+    background: #98239d24;
+    box-shadow: inset 12px 12px 11px #bd31c60d;
+}
+.navigation ul li{
+    background-color: #00000087;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 38%;
+    box-shadow: 1px 4px 14px #f4f5f5d4;
+    float: left;
+
+
+}
+.headerrow{
+    padding-bottom: 10px;
+    padding-top: 12px;
+}
+.navigation ul li a{
+    padding: 5px;
+    color: white;
+    line-height: 26px;
+    font-family: cursive;
+    text-shadow: 2px 2px 14px red;
+
+}
+.logo_header h1{
+	    font-size: 52px;
+    /* text-decoration: dotted !important; */
+    color: #716971;
+    font-family: cursive;
+    text-shadow: 0px 3px 12px red;
+    font-size: 52px !important; 
+    margin-bottom: 12px;
+}
+.navigation ul{
+float: right;
+
+}
+.mobile{
+    display: none; 
+}
+.mobile ul{
+    padding:0px;
+}
+.mobile ul li{
+   padding: 5px;
+background: black;
+list-style: none;
+}
+.mobile ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    text-shadow: 0px 1px red;
+}
+hr {
+    margin-top: 4px;
+     margin-bottom: 4px; 
+    color: white;
+     border: 1px solid white;
+}
+ .toggler{
+        float: right;
+    width: 32px;
+    height: 32px;
+    background: black;
+    border: none;
+    display: none; 
+
+ }
+.mobileshow{
+    display: block !important;
+}
+@media screen and (max-width: 700px) {
+ .toggler{
+    display: block;
+ }
+ .desktop{
+    display: none;
+ }
+}

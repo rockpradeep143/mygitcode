@@ -1,0 +1,44 @@
+<header>
+   <div class='container'>
+          <div class='row headerrow'>
+            <div class="col-sm-4">
+              <div class="logo_header">
+                <h1>Membership</h1>
+              </div>  
+            </div>
+           <div class="col-sm-8">
+                <button [ngClass]="'toggler'" (click)='showdrop()'>
+                 <hr />
+                 <hr />
+                 <hr />
+                </button>
+                <div class="navigation desktop">
+
+                 <ul>
+                    <li  *ngFor = 'let labeldata of label' [ngClass]='navelement'>
+                     
+                      <a [routerLink]="labeldata.url" >{{ labeldata.name }}</a>
+                      
+                    </li>
+                 </ul>
+              </div> 
+
+
+            </div>
+                   
+   
+         </div>
+
+   </div>
+     <div class="mobile" [ngClass]="mobile===1?'mobileshow':''">
+
+                 <ul>
+                    <li  *ngFor = 'let labeldata of label' [ngClass]='navelement'>
+                     
+                      <a [routerLink]="labeldata.url" >{{ labeldata.name }}</a>
+                      
+                    </li>
+                 </ul>
+              </div> 
+
+ </header>

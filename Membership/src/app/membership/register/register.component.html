@@ -1,0 +1,43 @@
+<div class="row">
+      <form [formGroup]="userForm" [ngClass]="'userform'">
+  
+		  <label [ngClass]="'labelinput'">
+		    First Name:
+		    <input type="text" [ngClass]="'forminput'" formControlName="firstName" >
+		  </label>
+
+		  <label [ngClass]="'labelinput'">
+		    Last Name:
+		    <input type="text"  [ngClass]="'forminput'" formControlName="lastName">
+		  </label>
+			  <div formGroupName="address">
+				  <h3>Address</h3>
+
+				  <label  [ngClass]="'labelinput'">
+				    Street:
+				    <input type="text" [ngClass]="'forminput'" formControlName="street">
+				  </label>
+
+				  <label [ngClass]="'labelinput'">
+				    City:
+				    <input type="text" [ngClass]="'forminput'" formControlName="city">
+				  </label>
+				  
+				  <label [ngClass]="'labelinput'">
+				    State:
+				    <input type="text"  [ngClass]="'forminput'" formControlName="state">
+				  </label >
+				   <label [ngClass]="'labelinput'">
+				    Zip Code:
+				    <input type="text" [ngClass]="'forminput'" formControlName="country">
+				  </label>
+
+				  <label [ngClass]="'labelinput'">
+				    Zip Code:
+				    <input type="text" [ngClass]="'forminput'" formControlName="zip">
+				  </label>
+             </div>
+
+      </form>
+ 
+</div>	
